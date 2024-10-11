@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pelajaran</title>
+    <style>
+        body{
+            background-color: rgb(128, 192, 33);
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        b{
+            font-weight: bolder;
+        }
+        h1{
+            text-align: center;
+        }
+        .catatan{
+            text-align: left;
+            margin-left: 10px;
+        }
+        .kembali button {
+            width: 200px;
+            padding: 15px 30px;
+            margin-left: 15px;
+            font-size: 16px;
+            color: rgb(2, 44, 2);
+            font-weight: bold;
+            font-size: x-large;
+            background-color: #308a06;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .kembali button:hover {
+            background-color: #07af2b;
+            transform: scale(1.1);
+        }
+        .jadwal{
+            margin: auto;
+            text-align: center;
+        }
+
+        table.tableJadwal{
+            width:100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        table.tableJadwal th, table.tableJadwal td {
+            border: 2px solid  rgb(2, 90, 2);
+            padding: 10px;
+            height: 50px;
+        }
+
+        table.tableJadwal th {
+            background-color: rgb(2, 114, 2);
+            border: 2px solid rgb(1, 43, 1);
+            color: black;
+        }
+
+        table.tableJadwal td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <a class="kembali" href="home.html"><button>Kembali</button></a>
+    <h1>JADWAL PELAJARAN <b>XI RPL 2</b></h1>
+<section class="jadwal">
+    <div class="catatan">
+        <h3>CATATAN :</h3>
+        <p>SENIN-KAMIS : 1 Jam Pelajaran 40 Menit</p>
+        <p>JUMAT : 1 Jam Pelajaran 35 Menit</p>
+    </div>
+    <table class="tableJadwal">
+        <thead>
+            <tr>
+                <th>Hari </th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td colspan="1"> </td>
+                <td colspan="3">Mapel Pilihan RPL
+                <td colspan="2">Sejarah
+                <td colspan="2">Matematika
+                <td colspan="4">Konsentrasi RPL
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td colspan="2">PJOK</td>
+                <td colspan="2">Pendidikan Pancasila
+                <td colspan="5">Konsentrasi RPL
+                <td colspan="1">BK
+                <td colspan="1"></td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td colspan="3">Pendidikan Agama
+                <td colspan="2">Bahasa Inggris
+                <td colspan="3">Konsentrasi RPL
+                <td colspan="2">Basa Jawa
+                <td colspan="1"></td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td colspan="4">Konsentrasi RPL
+                <td colspan="2">Bahasa Inggris
+                <td colspan="2">Bahasa Jepang
+                <td colspan="2">Proyek Kreatif dan Kewirausahaan
+                <td colspan="1">
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td colspan="3">Bahasa Indonesia
+                <td colspan="3">Konsentrasi RPL
+                <td colspan="3">Proyek Kreatif dan Kewirausahaan
+                <td colspan="1"> </td>
+                <td colspan="1"> </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>
